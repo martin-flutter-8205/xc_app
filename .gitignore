@@ -1,0 +1,27 @@
+# Dart / Flutter
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+*.iml
+
+# iOS / macOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/ephemeral/
+macos/Pods/
+macos/Flutter/ephemeral/
+
+# Android
+android/.gradle/
+android/.cxx/
+android/local.properties
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# 注意：App 工程的 pubspec.lock 需要提交，不要忽略

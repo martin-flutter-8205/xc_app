@@ -1,0 +1,8 @@
+# 本机工作区清单：业务包与框架包都是独立 git 仓库，
+# 这里声明检出目录（相对 App 根），供 xc gen / assets / check 扫描。
+workspace:
+  - ../xc_platform
+  - ../xc_ui
+  - ../xc_launch
+  - ../xc_index
+  - ../xc_app_module
