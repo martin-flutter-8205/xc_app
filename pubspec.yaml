@@ -14,5 +14,5 @@ dependencies:
   # 本地调试可临时换成 path: ../xc_app_module）
   xc_app_module:
     git:
-      url: /Users/ppx/Desktop/code/xc_app_module
+      url: git@github.com:martin-flutter-8205/xc_app_module.git
       ref: main
