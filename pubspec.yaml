@@ -1,0 +1,18 @@
+name: xc_app
+description: 响彻星空 App 壳：只有平台工程与入口，App 主体装配在 xc_app_module
+publish_to: none
+version: 0.1.0
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # App 装配层（独立 git 仓库，锁定 main 分支；
+  # 本地调试可临时换成 path: ../xc_app_module）
+  xc_app_module:
+    git:
+      url: /Users/ppx/Desktop/code/xc_app_module
+      ref: main
